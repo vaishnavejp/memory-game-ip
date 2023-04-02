@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../webdev/node"
+		},
+		{
+			"path": "../mine"
+		},
+		{
+			"path": "../../../../../cs50webdev/proj2/commerce/commerce"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mine"
+	}
+}
