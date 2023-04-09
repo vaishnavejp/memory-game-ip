@@ -10,6 +10,51 @@ body {
     font-family: 'IBM Plex Mono';font-size: 22px;
 }
 
+#title-card {
+  color: white;
+  text-align: center;
+
+}
+
+.congrats {
+  position: relative;
+  visibility: hidden;
+}
+
+.congratsOpen {
+  visibility: visible;
+}
+
+#congrats {
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  top: 250px;
+  left: 38%;
+  z-index: 1;
+  width: 500px;
+  height: 250px;
+  box-shadow: 10px 10px 10px rgb(45, 45, 74);
+  border-radius: 10px;
+}
+
+#close {
+  position: absolute;
+  top: 400px;
+  left: 48%;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px blue;
+  color: white;
+  z-index: 1;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+#close:active {
+  display: block;
+}
 
 .memory-wrap {
     width: 640px;
@@ -40,9 +85,9 @@ body {
 }
 
 .memory-card.flip {
-    transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
-
+  
 .front-face, .back-face {
     position: absolute;
     width: 100%;
